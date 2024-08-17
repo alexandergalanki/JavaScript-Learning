@@ -1,9 +1,10 @@
+//Counting Num of Errors
 const express=require('express');
 const app= express();
 const port = 3000;
 
 let totalErrCount=0;
-
+//throw error manually
 app.get("/user",function(req,res){
     throw new Error("user not found");
     res.json({
