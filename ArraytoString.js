@@ -7,4 +7,4 @@ const arrjoin=array.join(" ");
 console.log(arrjoin);
 
 const arrString=String(array);
-console.log(arrString);
+console.log(arrString); 
